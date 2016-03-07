@@ -5,7 +5,7 @@
         <title>Database creation</title>
     </head>
     <body>
-        <p>MySQL PHP</p>
+        <p>MySQL PHP -  Exercicio</p>
         <hr/>
         <br/>
         <p>1.- Crea una base de datos nueva llamada "concesionario". 
@@ -32,5 +32,16 @@
         <form action="engadir_datos.php" method="POST">
             <input type="submit" value="Engadir datos" name="engadir" />
         </form>
+        <br/>
+        <p>3.- Crea una web "modelo_coche.html" que contenga un formulario html 
+        que recoja el campo Id_coche y nos devuelva el nombre del modelo 
+        y el precio del mismo. </p>
+        <a href="modelo_coche.html">modelo_coche.html</a>
+        <br/>
+        <br/>
+        <p>4.- Crea una web "carga_coches.html" que permita cargar, mediante un 
+        formulario, en la tabla "catalogo" la información recogida en el 
+        archivo "coches.csv" que se adjunta.</p>
+        <a href="carga_coches.html">carga_coches.html</a>
     </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cargar coches</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>Seleciona un arquivo para cargar os modelos de coche na táboa 'catalogo'</p>
+        <form action="cargar_coches.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="arquivo" id="arquivo"/>
+            <br/>
+            <br/>
+            <input type="submit" value="Enviar"/>
+        </form>
+        <br/>
+        <hr/>
+        <form method="get" action="index.php">
+            <button type="submit">Índice</button>
+        </form>
+    </body>
+</html>
